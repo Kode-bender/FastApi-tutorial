@@ -16,4 +16,9 @@ A simple FastAPI-based REST API for managing products, using Redis and `redis-om
 Install the dependencies listed in `requirements.txt`:
 ```bash
 pip install -r requirements.txt
+```
 
+## 🚀 Running the Project
+```bash
+uvicorn main:app --reload
+```
